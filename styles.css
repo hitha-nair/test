@@ -172,6 +172,7 @@ margin: 0;
 
 .images{
   margin-bottom : -28vh;
+
 }
 
 .repo{
@@ -220,7 +221,11 @@ margin: 0;
   width: 100%;
   background-color: #011B1C;
 }
-
+@media screen and (max-width: 800px) {
+  #salaam, #mindcolors, #visualise {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 #salaam{
   margin-left: 8.5%;
   width : 16%;
